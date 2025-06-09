@@ -17,7 +17,7 @@ public class PlayBingo {
             int val = scan.nextInt();
 
             if(val==-1){// To stop the game in the mid use -1 as a User input
-                start=false;
+                break;
             }
             int count = player.strikeOut(val);
             player.bingoPrint(count);
